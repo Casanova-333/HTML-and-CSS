@@ -1,98 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
-  font: size 62.5%;
-}
-
-.header{
+.header { 
   width: 100vw;
   height: 10vh;
   border: 1px solid red;
   display: flex;
-  align-items: center;
-  background-color: fff;
 }
 
-div.container{
-  width: 90vw;
+.container{
+  width: 80vw;
   height: 100%;
-  /* border: 2px solid green; */
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr ;
-  
-}
-
-.Airbnb-logo{
-  /* background:red; */
-  height:80% ;
-  width:6.5vw ;
-  margin-top: 5px;
-  /* border: 1px solid red; */
-  border-radius: 9px;
-}
-
-.Airbnb-logo img{
-  height: 89%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 6px;
-
-}
-
-.search-bar{
-  /* background:red; */
-  height: 60%;
-  width: 20vw;
-  border: 1px solid red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search-bar input[type=search]{
-  height: 90%;
-  width: 100%;
-  border-radius: 20px;
-  padding: 7px;
-  font-size: .64rem;
+  margin: auto;
   border: 1px solid black;
-}
-
-.search-bar input[type=search]:hover{
-  cursor: pointer;
-}
-.search-bar:hover{
-  cursor: pointer;
-}
-
-/* #search-bar img{
-  height: 32px;
-  width: 32px;
-} */
-
-.hcp{
-  background:red;
-  height: 100%;
-  width: 100%;
-}
-
-.gridItemm1{
-
-}
-
-.gridItemm2{
-  /* height: 100%; */background-color: blue;
-  width: 100%;
   display: flex;
-  align-self: center;
-  justify-self: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.gridItemm3{
+.header .container .gridItem1 img{
+  height: 2.4rem;
+  width: 4rem;
+  border-radius: 6px;
+}
 
+.header .container .gridItem3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
