@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-decoration: none;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 10vh;
+    background: rgb(239, 229, 198);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container img{
+    height: 4.2rem;
+    width: 4.5rem;
+    border-radius: 100%;
+}
+
+.container h2{
+    font-size: 1.9rem;
+    /* border: 1px solid red; */
+    margin-left: -19rem;
+}
+
+.container .navbar{
+    
+}
+
+.container .navbar ul li{
+    display: inline;
+    /* background-color: green; */
+}
+
+.container .navbar ul li a{
+    font-size: 1.35rem;
+    color: rgb(141, 137, 137);
+    position: relative;
+    padding: .4rem;
+    margin: .9rem;
+}
+
+/* .container .navbar ul li a::before{
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: 0%;
+    height: 3px;
+    width: 50%;
+    border-bottom: 3px solid orange;
+} */
+
+.container button{
+    padding: .7rem 1.7rem;
+    font-size: .7rem;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+}
+
+.container button:hover{
+    font-size: .72rem;
+    cursor: pointer;
+}
+
+.container .signIn{
+    margin-right: -18rem;
+}
+
+.container .signUp{
+    background-color: rgb(232, 75, 13);
+    color: white;
+    border: none;
+}
